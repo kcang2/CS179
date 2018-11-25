@@ -16,5 +16,5 @@ CUDA Programming
 2) Go to Project Properties -> Configuration Properties -> VC++ Directories -> Include Directories, paste "libsndfile\include"
 3) Project Properties -> Configuration Properties -> Linker -> General -> Additional Library Directories, paste "libsndfile\lib"
 4) Project Properties -> Configuration Properties -> Linker -> Imput -> Additional Dependencies, paste "libsndfile\lib\libsndfile-1.lib"
-4.5) Not sure if this is the proper way, but copy libsndfile\bin\libsndfile-1.dll to Blur(Proj_name)\x64\Debug
-5) #define AUDIO_ON 1 at the start of blur.cpp
+5) Not sure if this is the proper way, but copy libsndfile\bin\libsndfile-1.dll to Blur(Proj_name)\x64\Debug
+6) #define AUDIO_ON 1 at the start of blur.cpp
