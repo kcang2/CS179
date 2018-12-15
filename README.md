@@ -20,7 +20,7 @@ CUDA Programming
 6) #define AUDIO_ON 1 at the start of blur.cpp
 
 ### How to install OpenCV
-1) Download
+1) Download: https://opencv.org/releases.html
 2) Install
 3) Setup System Environment Variable: Control Panel -> Edit the system environment variables -> Advanced -> Environment Variables -> New System Variable -> Variable name: OPENCV_DIR, Variable value: (Your OpenCV directory)\build\
 4) Setup Visual Studio: Configuration(Top): All Configurations (Both debug & release), Platforms(Top): x64
