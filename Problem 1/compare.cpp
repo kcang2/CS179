@@ -36,7 +36,7 @@ void compareImages(std::string reference_filename, std::string test_filename,
   {
     checkResultsExact(referencePtr, testPtr, reference.rows * reference.cols * reference.channels());
   }
- 
+  
   std::cout << "PASS" << std::endl;
   return;
 }
